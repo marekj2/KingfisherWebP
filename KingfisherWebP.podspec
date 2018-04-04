@@ -21,11 +21,10 @@ KingfisherWebP is an extension of the popular library [Kingfisher](https://githu
 
   s.source_files = 'KingfisherWebP/Classes/**/*'
   s.public_header_files = 'KingfisherWebP/Classes/KingfisherWebP-umbrella.h'
-  s.private_header_files = 'KingfisherWebP/Classes/CGImage+WebP.h'
   s.module_map = 'KingfisherWebP/KingfisherWebP.modulemap'
 
   s.xcconfig = {
-    'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src $(SRCROOT)/KingfisherWebP/Classes'
+    'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'
   }
   s.tvos.xcconfig = {
     'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'

@@ -25,7 +25,7 @@ KingfisherWebP is an extension of the popular library [Kingfisher](https://githu
   s.module_map = 'KingfisherWebP/KingfisherWebP.modulemap'
 
   s.xcconfig = {
-    'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'
+    'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src $(SRCROOT)/KingfisherWebP/Classes'
   }
   s.tvos.xcconfig = {
     'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'
